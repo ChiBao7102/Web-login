@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+.model-1 {
+    width: 768px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form {
+    width: 50%;
+    height: 480px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.form-signup {
+    width: 50%;
+    height: 480px;
+    padding: 0 50px;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    text-align: center;
+    color: #f6f5f7;
+}
+
+.icon-login i {
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.icon-login {
+    margin: 20px 0;
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.email,
+.pass {
+    width: 284px;
+    height: 39px;
+    margin: 8px 0px;
+    padding: 12px 15px;
+    border: none;
+    background-color: #ccc;
+}
+
+.content-forgot {
+    margin: 15px 0px;
+}
+
+.forgot {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #ff4b2b;
+    color: #f6f5f7;
+    border: none;
+    margin: 15px 0;
+}
+
+.hello {
+    padding-top: 150px;
+}
+
+.intro {
+    padding: 20px 0;
+}
+
+.signup {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    color: #000;
+    margin: 15px 0;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+.model-2 {
+    position: fixed;
+    width: 768px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
